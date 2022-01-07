@@ -58,4 +58,5 @@ Predicate<T>
 - spring.jpa.hibernate.ddl-auto=none<br>
  => JPA는 테이블을 자동으로 생성하는 기능을 제공하는데 none을 사용하면 해당 기능을 끈다. (<-> create)
 
-### 1급 객체 ?
+### * 생각해볼것
+- 사실 중요한 것은 @Autowired, @Component.. 를 어떻게 사용하는지가 아닌, 스프링 컨테이너가 왜 나왔고 왜 쓰는건지를 아는것이 중요!
